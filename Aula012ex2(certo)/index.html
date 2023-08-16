@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Qual a sua idade</h1>
+    </header>
+    <!-- Input pra Calcular idade-->
+   <section> 
+        <p><strong>Ano de Nascimento</strong>
+        <input type="number" id="anoqn">
+        </p>
+        <!--Input pra descobri o sexo-->
+        <p><strong>Sexo:</strong>
+            <form >
+            <input type="radio" name="msexo" id="mas" checked>
+            <label for="msexo">Masculino</label>
+            <input type="radio" name="msexo" id="femi">
+            <label for="msexo">Feminino</label>
+            </form>
+        </p>
+        <p>
+            <img src="imagens/" alt="" id="figura">
+        </p>
+        <!--Botao que chama função-->
+        <p> 
+            <button onclick="idade()">Calcular</button>
+        </p>
+        <!--Resultado-->
+        <div id="resu">Resultado Aqui</div>
+   </section>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "UTF-8"
+*{}
+
+body {
+    background-color: rgb(80, 77, 224);
+    font: normal 1em Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    padding: 8px;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+    border-radius: 6px;
+    box-shadow: 3px 8px 0px rgba(0, 0, 0, 0.61);
+}
+section > p {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+form {
+    margin: auto;
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    width: 200px;
+    padding: 5px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div#resu {
+    text-align: center;
+}
