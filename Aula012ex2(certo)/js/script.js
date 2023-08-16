@@ -60,7 +60,7 @@ function idade(){
         }
         if (idade > 60 && idade <= 70) {
             fot.src = 'imagens/idoM.png'
-        } else {
+        } else if(idade > 70){
             fot.src = 'imagens/velha.png'
         }
     }
